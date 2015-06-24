@@ -1,3 +1,5 @@
+#include <assert.h>
+
 template< typename Type, uint Cellsize >
 	class Grid
 	{
