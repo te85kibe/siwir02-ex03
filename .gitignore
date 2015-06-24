@@ -1,0 +1,6 @@
+lbm
+*.tar.bz2
+*.swp
+
+GCC/
+referenceOutputs/
