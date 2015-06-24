@@ -1,0 +1,92 @@
+# vtk DataFile Version 4.0
+SiwiRVisFile
+ASCII
+DATASET STRUCTURED_POINTS
+DIMENSIONS 5 5 1
+ORIGIN 0 0 0
+SPACING 1 1 1
+POINT_DATA 25
+
+SCALARS flags double 1
+LOOKUP_TABLE default
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+SCALARS density double 1
+LOOKUP_TABLE default
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1.00767
+1
+1
+1
+0.99211
+0.974113
+1
+1
+1
+1.02611
+
+VECTORS velocity double
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+-0.00789037 -0.00766519 0
+-0.0155556 0 0
+-0.0155556 0 0
+-0.0155556 0 0
+-0.00766519 0.00789037 0
+0.0261126 0.00789037 0
+0.052 0 0
+0.052 0 0
+0.052 0 0
+0.0258874 -0.00766519 0
+
