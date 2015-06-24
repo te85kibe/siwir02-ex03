@@ -1,9 +1,10 @@
 #include <iostream>
 #include "FileReader.hh"
 #include <string>
-
+#include "Grid.hh"
 int main(int argc, char **args)
 {
+Grid<double,3> grid(9,9);
 FileReader reader(args[1]);
 std::cout << reader.getParameter<size_t>("vtk_step") << std::endl;
 std::cout << reader.getParameter<std::string>("vtk_file") << std::endl;
