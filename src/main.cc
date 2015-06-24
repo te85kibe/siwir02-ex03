@@ -1,6 +1,7 @@
 #include <iostream>
 #include "FileReader.hh"
 #include <string>
+
 int main(int argc, char **args)
 {
 FileReader reader(args[1]);
