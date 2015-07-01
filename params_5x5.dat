@@ -1,6 +1,6 @@
-sizex 5
-sizey 5
-timesteps 100
-omega 1.9
-vtk_file vtk/ldc.vtk
-vtk_step 1
+sizex 100
+sizey 100
+timesteps 10000
+omega 1.8
+vtk_file vtk/ldctest.vtk
+vtk_step 100
