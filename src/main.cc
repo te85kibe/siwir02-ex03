@@ -223,7 +223,7 @@ int main(int argc, char **args)
 	}
 	gettimeofday(&t, NULL);
 
-	std::cout << "MLUps: " << (sizex*sizey*timesteps)/(((int64_t) (t.tv_sec - t0.tv_sec) * (int64_t)1000000 + (int64_t)t.tv_usec - (int64_t)t0.tv_usec) * 1e-3)*1e-3 << std::endl;
+	std::cout << "MLUps: " << (sizex*sizey*timesteps)/((((int64_t) (t.tv_sec - t0.tv_sec) * (int64_t)1000000 + (int64_t)t.tv_usec - (int64_t)t0.tv_usec) * 1e-3)*1e-3) << std::endl;
 
 
 	return 0;
